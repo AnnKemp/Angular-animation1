@@ -12,8 +12,8 @@ import { trigger, state, style, animate, transition, AnimationEvent } from '@ang
         backgroundColor: 'yellow'
       })),
       state('closed', style({ 
-        height: '100px',
-        width:'100px',
+        height: '30px',
+        width:'30px',
         opacity: 1,
         backgroundColor: 'green'
       })),
@@ -32,6 +32,6 @@ export class OpenCloseComponent{
   isOpen = true;
 
   toggle(){
-    this.isOpen = ! this.isOpen; // den toggle werkt ook niet, waar wordt die toggle functie aangeroepen?
+    this.isOpen = ! this.isOpen;  
   }
 }
