@@ -1,5 +1,6 @@
 # animation in Angular: step 1
 
+On click open or close a box which changes background-color.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
 
