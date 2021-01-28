@@ -6,13 +6,15 @@ import { trigger, state, style, animate, transition, AnimationEvent } from '@ang
   animations: [
     trigger('openClose', [ 
       state('open', style({
-        height: '200px',
+        height: '1000px',
+        width: '1000px',
         opacity: 1,
         backgroundColor: 'yellow'
       })),
       state('closed', style({ 
         height: '100px',
-        opacity: 0.5,
+        width:'100px',
+        opacity: 1,
         backgroundColor: 'green'
       })),
       transition('open => closed', [ 
